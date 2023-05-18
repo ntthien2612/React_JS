@@ -1,7 +1,9 @@
 import logo from './logo.svg';
-import './App.css';
-
+import './App.scss';
+import MyComponent  from './example/mycomponents.js';
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <h1 style={{color: "red"}}>Hello Style!</h1>
+        <MyComponent></MyComponent>
       </header>
     </div>
   );
